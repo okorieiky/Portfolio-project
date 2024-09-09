@@ -263,7 +263,8 @@ body {
   }
 
   .home-content h1 {
-    font-size: 4rem;
+    font-size: 3rem;
+    padding-top: 3.5rem;
   }
 
   .home-content h3 {
@@ -350,16 +351,16 @@ body {
   }
 
   .home-content h1 {
-    font-size: 3.5rem;
+    font-size: 2.8rem;
     padding-top: 3.3rem;
   }
 
   .home-content h3 {
-    font-size: 2.5rem;
+    font-size: 2.2rem;
   }
 
   .home-content p {
-    font-size: 1.8rem;
+    font-size: 1.6rem;
   }
 
   .btn-box {
