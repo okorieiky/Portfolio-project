@@ -54,7 +54,7 @@ body {
 
 .container {
   width: 80%;
-  margin-left: 20rem;
+  margin-left: 8rem;
   margin-top: 3rem;
   overflow: hidden;
   font-weight: 200;
@@ -84,4 +84,56 @@ body {
 }
 .about-section p {
   margin: 10px 0;
+}
+
+#contact {
+  margin-left: 9rem;
+}
+
+.whatsapp-link {
+  display: inline-flex;
+  align-items: center;
+  font-size: 1.5rem;
+  color: #25d366; /* WhatsApp green */
+  text-decoration: none;
+  font-weight: bold;
+  border: 2px solid #25d366;
+  border-radius: 0.5rem;
+  padding: 0.5rem 1rem;
+  margin-right: 5rem;
+  transition: background 0.3s, color 0.3s;
+}
+
+.whatsapp-link i {
+  margin-right: 3.5rem;
+}
+
+.whatsapp-link:hover {
+  background: #25d366;
+  color: white;
+}
+
+.footer {
+  position: relative;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  min-height: 10vh;
+  top: 20rem;
+  padding: 2rem;
+  background: black;
+}
+
+.twelve {
+  font-size: 1.5rem;
+  color: white;
+  text-align: center;
+  color: #00abf0;
+}
+
+.thirteen {
+  font-size: 1.5rem;
+  color: #00abf0;
+  font-weight: 500;
 }

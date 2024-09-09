@@ -1,0 +1,107 @@
+* {
+  padding: 0;
+  margin: 0;
+  max-width: 100%;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  background: #081b29;
+  font-family: "Poppins", sans-serif;
+  font-weight: 100;
+  color: white;
+}
+
+.header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  padding: 1.25rem 1rem;
+  background: yellowgreen;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  z-index: 10;
+}
+
+.logo {
+  font-size: 2.56rem;
+  color: white;
+  text-decoration: none;
+  font-weight: 600;
+  margin-left: 1rem;
+}
+
+.navbar a {
+  font-size: 2.25rem;
+  color: white;
+  text-decoration: none;
+  font-weight: 500;
+  margin-left: 2.19rem;
+  margin-right: 1.5rem;
+  transition: 0.3s;
+}
+
+.navbar a:hover,
+.navbar a.active {
+  color: #00abf0;
+}
+.hero {
+  height: 60vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-size: 3.5rem;
+  line-height: 1.5;
+}
+#projects h2 {
+  font-size: 3.5rem;
+  color: #00abf0;
+  text-align: center;
+}
+.restaurant-link {
+  color: #00abf0;
+  text-decoration: none;
+  font-weight: bold;
+  padding-left: 11rem;
+  font-size: 1.4rem;
+  border-bottom: 2px solid #00abf0;
+  transition: color 0.3s, border-color 0.3s;
+}
+
+.restaurant-link:hover {
+  color: orange;
+  border-color: #081b29;
+}
+
+.game-link {
+  color: #00abf0;
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 1.2rem;
+  border-bottom: 2px solid #00abf0;
+  transition: color 0.3s, border-color 0.3s;
+}
+.game-link:hover {
+  color: orange;
+  border-color: #081b29;
+}
+
+.arlin-link {
+  color: #00abf0;
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 1.2rem;
+  border-bottom: 2px solid #00abf0;
+  transition: color 0.3s, border-color 0.3s;
+}
+.arlin-link:hover {
+  color: orange;
+  border-color: #081b29;
+}
