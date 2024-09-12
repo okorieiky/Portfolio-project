@@ -22,7 +22,7 @@ body {
   left: 0;
   width: 100%;
   padding: 1.25rem 1rem;
-  background: yellowgreen;
+  background: #00abf0;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -49,7 +49,7 @@ body {
 
 .navbar a:hover,
 .navbar a.active {
-  color: #00abf0;
+  color: black;
 }
 
 .home {
@@ -61,6 +61,7 @@ body {
   align-items: center;
   height: 80vh;
   padding-left: 3rem;
+  margin-top: 10rem;
 }
 
 .home-img {
@@ -72,7 +73,8 @@ body {
 }
 
 .home img {
-  height: 90rem;
+  border-radius: 50%;
+  height: 60rem;
   max-width: 100%;
 }
 
